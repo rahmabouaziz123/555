@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Video Playlist Tutorial</title>
+
+    <!-- lien css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h3 class="heading">video gallery</h3>
+
+    <div class="container">
+      <!-- video N°1 unitial -->
+      <div class="main-video-container">
+        <!-- loop controls :le video est a linstant une image avec loop controls devient video dynamique -->
+        <video src="images/vid-1.mp4" loop controls class="main-video"></video>
+        <h3 class="list-title">house flood animation</h3>
+      </div>
+
+          <!--  tous les video dans list -->
+                 <div class="video-list">
+
+                <!-- video N°1 repeter -->
+        <div class="vid active">
+          <video src="images/vid-1.mp4" muted class="list-video"></video>
+          <h3 class="title">house flood animation</h3>
+        </div>
+                 <!-- video N°2 -->
+        <div class="vid">
+          <video src="images/vid-2.mp4" muted class="list-video"></video>
+          <h3 class="list-title">zoombie walking animation</h3>
+        </div>
+                           <!-- video N°3 -->
+        <div class="vid">
+          <video src="images/vid-3.mp4" muted class="list-video"></video>
+          <h3 class="list-title">emoji falling animation</h3>
+        </div>
+                          <!-- video N°4 -->
+        <div class="vid">
+          <video src="images/vid-4.mp4" muted class="list-video"></video>
+          <h3 class="list-title">3D town animation</h3>
+        </div>
+                                     <!-- video N°5 -->
+        <div class="vid">
+          <video src="images/vid-5.mp4" muted class="list-video"></video>
+          <h3 class="list-title">man chasing carrot animation</h3>
+        </div>
+                                <!-- video N°6 -->
+        <div class="vid">
+          <video src="images/vid-6.mp4" class="list-video"></video>
+          <h3 class="list-title">door hinge animation</h3>
+        </div>
+                                       <!-- video N°7 -->
+        <div class="vid">
+          <video src="images/vid-7.mp4" muted class="list-video"></video>
+          <h3 class="list-title">poeple walking in town animation</h3>
+        </div>
+                                        <!-- video N°8 -->
+        <div class="vid">
+          <video src="images/vid-8.mp4" class="list-video"></video>
+          <h3 class="list-title">knight chasing virus animation</h3>
+        </div>
+                                            <!-- video N°9 -->
+        <div class="vid">
+          <video src="images/vid-9.mp4" muted class="list-video"></video>
+          <h3 class="list-title">3D helicopter animation</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- custom js file link  -->
+    <script src="style.js"></script>
+  </body>
+</html>
